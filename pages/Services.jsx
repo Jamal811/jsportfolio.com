@@ -59,11 +59,11 @@ const Services = () => {
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
+          <p className="text-gray-800 py-1">React</p>
+          <p className="text-gray-800 py-1">MongoDB</p>
+          <p className="text-gray-800 py-1">Node Js</p>
+          <p className="text-gray-800 py-1">Express Js</p>
         </div>
       </div>
     </section>
