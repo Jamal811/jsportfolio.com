@@ -19,7 +19,7 @@ const Skills = () => {
         {skills.map((skill) => (
           <motion.div
             key={skill.id}
-            className="p-4 m-4 bg-white rounded-lg shadow-md"
+            className="p-4 m-4 bg-sky-500/100 rounded-lg shadow-md sm:text-1xl md:text-4xl"
             whileHover={{ scale: 1.1 }}
           >
             {skill.name}

@@ -28,7 +28,7 @@ const ContactForm = () => {
           Name
         </label>
         <input
-          className="w-full p-3 bg-gray-200 rounded-lg"
+          className="w-full p-3 bg-gray-200 rounded-lg "
           type="text"
           id="name"
           name="name"
