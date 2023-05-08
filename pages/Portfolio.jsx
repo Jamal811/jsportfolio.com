@@ -4,11 +4,11 @@ import { AiOutlineGithub } from "react-icons/ai";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import web7 from "../public/web7.png";
 import web8 from "../public/web8.png";
+import web9 from "../public/web9.png";
 
 const Portfolio = () => {
   return (
@@ -36,7 +36,10 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://dazzling-puffpuff-439879.netlify.app/">
+          <a
+            href="https://dazzling-puffpuff-439879.netlify.app/"
+            target="_blank"
+          >
             <Image className="object-cover rounded-xl" src={web2} />
           </a>
           <div className=" flex justify-center my-4">
@@ -49,11 +52,17 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://sprightly-sundae-6ac01f.netlify.app/">
+          <a
+            href="https://sprightly-sundae-6ac01f.netlify.app/"
+            target="_blank"
+          >
             <Image className="object-cover rounded-xl" src={web3} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/Raect-App-TextUtils">
+            <a
+              href="https://github.com/Jamal811/Raect-App-TextUtils"
+              target="_blank"
+            >
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
@@ -62,11 +71,11 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://jamal-pokedex-react.netlify.app/">
+          <a href="https://jamal-pokedex-react.netlify.app/" target="_blank">
             <Image className="object-cover rounded-xl" src={web5} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/Pokedex-React">
+            <a href="https://github.com/Jamal811/Pokedex-React" target="_blank">
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
@@ -75,11 +84,14 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://css-modules-react.netlify.app/">
+          <a href="https://css-modules-react.netlify.app/" target="_blank">
             <Image className="object-cover rounded-xl" src={web6} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/Learn-React/tree/CSS-Modules">
+            <a
+              href="https://github.com/Jamal811/Learn-React/tree/CSS-Modules"
+              target="_blank"
+            >
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
@@ -88,11 +100,17 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://react-styled-components811.netlify.app/">
+          <a
+            href="https://react-styled-components811.netlify.app/"
+            target="_blank"
+          >
             <Image className="object-cover rounded-xl" src={web7} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/Learn-React/tree/Styled-Components">
+            <a
+              href="https://github.com/Jamal811/Learn-React/tree/Styled-Components"
+              target="_blank"
+            >
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
@@ -101,11 +119,14 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://react1expensetracker.netlify.app/">
+          <a href="https://react1expensetracker.netlify.app/" target="_blank">
             <Image className="object-cover rounded-xl" src={web8} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/React-Expense-Tracker">
+            <a
+              href="https://github.com/Jamal811/React-Expense-Tracker"
+              target="_blank"
+            >
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
@@ -114,11 +135,17 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="basis-1/3 flex-1  my-1">
-          <a href="https://react-styled-components811.netlify.app/">
-            <Image className="object-cover rounded-xl" src={web7} />
+          <a
+            href="https://react-styled-components811.netlify.app/"
+            target="_blank"
+          >
+            <Image className="object-cover rounded-xl" src={web9} />
           </a>
           <div className=" flex justify-center my-4">
-            <a href="https://github.com/Jamal811/Learn-React/tree/Styled-Components">
+            <a
+              href="https://github.com/Jamal811/Learn-React/tree/Styled-Components"
+              target="_blank"
+            >
               <button className=" flex justify-between  gap-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ">
                 <AiOutlineGithub className=" text-2xl" />
                 <span>Code</span>
